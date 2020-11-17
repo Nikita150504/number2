@@ -33,7 +33,6 @@ class MyWidget(QMainWindow):
         x = random.randint(0, 500)
         y = random.randint(0, 500)
         qp.drawEllipse(x, y, razm, razm)
-        # Имя элемента совпадает с objectName в QTDesigner
 
 
 if __name__ == '__main__':
