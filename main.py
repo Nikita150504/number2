@@ -25,6 +25,7 @@ class MyWidget(QMainWindow, Ui_MainWindow):
             qp.end()
 
     def drawRectangles(self, qp):
+
         r = random.randint(0, 255)
         g = random.randint(0, 255)
         b = random.randint(0, 255)
