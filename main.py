@@ -24,10 +24,11 @@ class MyWidget(QMainWindow):
             qp.end()
 
     def drawRectangles(self, qp):
-        col = QColor(0, 0, 0)
-        col.setNamedColor('#ffff00')
-        qp.setPen(col)
-        qp.setBrush(QColor(255, 255, 0))
+
+        r = random.randint(0, 255)
+        g = random.randint(0, 255)
+        b = random.randint(0, 255)
+        qp.setBrush(QColor(r, g, b))
         razm = random.randint(1, 100)
         x = random.randint(0, 500)
         y = random.randint(0, 500)
